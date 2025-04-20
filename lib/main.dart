@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Geolocator + Supabase')),
+        appBar: AppBar(title: Text('fetching user location')),
         body: Center(
           child: ElevatedButton(
             onPressed: getAndSaveLocation,
